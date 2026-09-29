@@ -29,3 +29,17 @@ ul, ol {
     line-height: 1.6;
     margin-bottom: 1rem;
 }
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+}
+
+.item {
+  background-color: #2b37df;
+  color: rgb(255, 243, 71);
+  padding: 30px;
+  height: 70px;
+  text-align: center;
+  font-size: 1.7rem;
+}
